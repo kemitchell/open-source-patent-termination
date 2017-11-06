@@ -10,6 +10,10 @@
 - Terminates on Filing
 - Triggers on Claim Against Anyone
 
+The wording here is a bit unusual.  Software itself doesn't constitute patent infringement.  Rather, it's making, using, offering to sell, selling, or importing software that potentially constitutes infringement. 
+
+Coverage for cross-claims and counterclaims reads a bit like a bolt-on.  So presumably patent licenses terminate on filing to add a cross-claim or counterclaim, and not back when the initial claim was made.
+
 ## EPL-1.0 & EPL-2.0
 
 > If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) [granting a patent license] shall terminate as of the date such litigation is filed.
@@ -21,6 +25,8 @@
 - Terminates on Filing
 - Triggers on Claim Against Anyone
 
+Explicit exclusion of combinations feels like a gotcha.  That kind of language is very typical as exclusions from patent _indemnitees_. where it serves to get those giving indemnity off the hook.
+
 ## (A)GPL-3.0
 
 > You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.  For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it.
@@ -30,6 +36,10 @@
 - Terminates All Permission
 - Terminates on Filing
 - Triggers on Claim Against Anyone
+
+It's odd to patent termination presented as a specific instance of a broader class of prohibited behavior: "impos[ing] further restrictions".
+
+This is clearly Apache-2.0-inspired.  It retains Apache's awkwardness in bolting on cross-claims and counterclaims.  But it fixes Apache's weirdness on "the Work constitut[ing] ... infringement".
 
 ## MPL-2.0
 
@@ -42,6 +52,8 @@
 - Terminates All Permission
 - Terminates on Filing
 - Triggers on Claim Against Anyone
+
+The exclusion of defensive-looking claims---declaratory judgment among them---is probably a nod to corporate licensees concerned about losing their licenses in self-defense.
 
 ## OSL-3.0 & AFL-3.0
 
